@@ -227,7 +227,7 @@ function SignUp() {
               {[
                 { val: "user", label: "🍔 Foodie" },
                 { val: "owner", label: "🍽️ Partner" },
-                { val: "deliveryBoy", label: "🛵 Rider" },
+                // { val: "deliveryBoy", label: "🛵 Rider" },
               ].map(({ val, label }) => (
                 <button
                   key={val}
